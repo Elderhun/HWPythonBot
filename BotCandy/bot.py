@@ -102,18 +102,18 @@ async def chat_id(message):
                 else:
                     await message.reply(f"\n{candy} candies left\n")
                     if pn == 1:
-                        await message.reply('🎉| First player wins! Gratz!!! |🙌\n'
+                        await message.reply('🎉| First player wins!'
 )
                     else:
-                        await message.reply('🎉| Bot wins! Gratz!!! |🙌\n'
+                        await message.reply('🎉| Bot wins!'
 )
             else:
                 await message.reply(f"\n{candy} candies left\n")
                 if pn == 1:
-                    await message.reply('🎉| First player wins! Gratz!!! |🙌\n'
+                    await message.reply('🎉| First player wins!'
 )
                 else:
-                    await message.reply('🎉| Bot wins! Gratz!!! |🙌'
+                    await message.reply('🎉| Bot wins!'
                                         )
     else:
         write_db(user_id=us_id, user_name=us_name, username=username)
